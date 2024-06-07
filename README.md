@@ -9,4 +9,4 @@ Link pages with `+route.ts` file form another package called `shared` to the pac
 2. `$ cd weabpp`
 3. `$ pnpm dev`
 4. Visit `http://localhost:3000/usual-withoutroute-2` — it works, becouse it is usual page of vike
-5. Visit `http://localhost:3000/linked-withroute-1` — it does not work I do not know why. Please, help me to fix it.
+5. Visit `http://localhost:3000/linked-withroute-1` — it does not work I do not know why. It is linked page `shared/src/pages/withroute/linked-withroute-1`. Please, help me to fix it.
