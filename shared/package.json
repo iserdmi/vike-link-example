@@ -1,0 +1,12 @@
+{
+  "name": "@/shared",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@/webapp": "workspace:*",
+    "react": "^18.2.0",
+    "vike": "^0.4.174"
+  },
+  "type": "module"
+}

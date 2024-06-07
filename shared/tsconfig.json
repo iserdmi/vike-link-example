@@ -1,0 +1,10 @@
+{
+  "includes": ["src"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/webapp/*": ["../webapp/*"]
+    },
+    "jsx": "react-jsx"
+  }
+}
