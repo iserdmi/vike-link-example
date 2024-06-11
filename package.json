@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "(rm $(pwd)/webapp/pages/shared-pages-link || true) && ln -s $(pwd)/shared/src/pages $(pwd)/webapp/pages/shared-pages-link"
+    "prepare": "ln -sf ../../shared/src/pages ./webapp/pages/shared-pages-link"
   },
   "keywords": [],
   "author": "",
