@@ -8,6 +8,7 @@ const cwd = path.dirname(new URL(import.meta.url).pathname);
 
 const config: UserConfig = {
   resolve: {
+    preserveSymlinks: true,
     alias: Object.fromEntries(
       Object.entries(tsconfig.compilerOptions.paths).map(([key, [value]]) => [
         key.replace("/*", ""),
