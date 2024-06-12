@@ -27,6 +27,7 @@ function PageLayout({
             <Link href="/usual-withroute-2">Usual With Route 2</Link>
             <Link href="/linked-withroute-1">Linked With Route 1</Link>
             <Link href="/linked-withroute-2">Linked With Route 2</Link>
+            <Link href="/linked-withroute-3">Linked With Route 3</Link>
           </Sidebar>
           <Content>{children}</Content>
         </Layout>
